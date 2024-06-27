@@ -26,6 +26,18 @@
       <li>Second item</li>
       <li>Third item</li>
   </ul>
+    <!--Attributes
+  •image tag is a self closing tag
+  •here image file is in same directery
+  •alt is used if required pic is missing
+  •a or anchor tag is used to reference other html files or other websites links of outside references into current directory
+  •a tag is not a self closing tab and have own closing tab in which between we can have Clickable link Can pass Words or images as well--> 
+  
+  <h4>Attributes</h4>
+  <img src="django.png" alt="django.png not found">
+  <img src="missing.png" alt="Uh Oh! Image not found!">
+  <a href="newpage.html">Click me</a>
+  <a href="https://facebook.com">facebook</a>
   <h6>This is heading 6</h6>
   <!-- •Can have upto 6 headings levels
    •No Indentations errors
@@ -41,6 +53,7 @@
   <!--Bold and Italic -->
   <p><b>This is bold text</b></p> 
   <p><i> This is Italic text</i></p>
-  <p><b><i> This is Bold and Italic </b></i></p>
+  <p><b><i> This is Bold and Italic </b></i>
+  </p>
   </body>
 </html>
