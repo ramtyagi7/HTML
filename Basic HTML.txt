@@ -1,0 +1,46 @@
+<html>
+  <head>
+  <!--Store meta data-->
+  <meta charset="utf-8">
+  <title>This is the Title!</title>
+  </head>
+  <body>
+  <!--Contains main part-->
+  <!-- Comment-->
+  <!--Nested List-->
+  <h1>This is heading 1</h1>
+  <h2>Lists</h2>
+  <ol>
+      <li>First item</li>
+      <li>Second item</li>
+      <li>Third item</li>
+      <ul>
+           <li>I'm nested inside</li>
+           <li>Also nested!</li>
+           <ol>
+               <li><strong>Woah </strong>I'm really nested</li>
+      </ul>
+  </ol>
+  <ul>
+      <li>First item</li>
+      <li>Second item</li>
+      <li>Third item</li>
+  </ul>
+  <h6>This is heading 6</h6>
+  <!-- •Can have upto 6 headings levels
+   •No Indentations errors
+   •Strong can also be used in place of b
+   •em can be used in place of i -->
+   <h3>Divs and Spans </h3>
+   <!--•Study and used in CSS 
+   •Divs and Spans-->
+   <div class="groupone">
+       <h3>Group One </h3>
+       <p>I want to <span>be together in</span> group</p/>
+   </div>
+  <!--Bold and Italic -->
+  <p><b>This is bold text</b></p> 
+  <p><i> This is Italic text</i></p>
+  <p><b><i> This is Bold and Italic </b></i></p>
+  </body>
+</html>
