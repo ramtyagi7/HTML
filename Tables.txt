@@ -23,8 +23,8 @@
      </tr>
      <tr>
        <td>United Kingdoms</td>
-       <td><img src="https://en.m.wikipedia.org/wiki/File:Flag_of_the_United_Kingdom.svg"alt="Image not Found"></td>
-       <td>2,649,890l</td>
+       <td><img src="https://en.m.wikipedia.org/wiki/File:Flag_of_the_United_Kingdom.svg"alt="Image not found"></td>
+       <td>2,649,890</td>
      </tr>
      </table>
   </body>
