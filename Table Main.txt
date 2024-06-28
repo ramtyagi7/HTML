@@ -1,0 +1,29 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tables</title>
+  </head>
+  <body>
+  <table border="1"><!--Styling Part of CSS-->
+     <thead>
+     <!--Actual data goes in head
+     • Just represent the column name
+     •table can be made without thead-->
+     <th>Number</th>
+     <th>Color</th>
+     <th>Country</th>
+     </thead>
+     <tr>
+       <!--Actual data goes in Cells-->
+       <td>250</td>
+       <td>Red</td>
+       <td>India</td>
+     </tr>
+     <tr>
+        <td>100</td><!--No errors if we have only one values -->
+        <td>Blue</td>
+        <td>Germany</td>
+     </tr>
+     </table>
+  </body>
+</html>
