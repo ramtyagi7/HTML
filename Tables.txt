@@ -1,0 +1,31 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  </head>
+  <body>
+  <table border="1">
+     <thead>
+     
+     <th>Country Name</th>
+     <th>Country Flag</th>
+     <th>GDP(millions of USD)</th>
+     </thead>
+     <tr>
+       <td>USA</td>
+       <td><img src="https://en.m.wikipedia.org/wiki/Flag_of_the_United_States"alt="Image not Found"></td>
+       <td>18,561,930</td>
+     </tr>
+     <tr>
+        <td>INDIA</td>
+        <td><img src="https://en.m.wikipedia.org/wiki/File:Flag_of_India.svg"alt="Image not found"></td>
+        <td>2,250,990</td>
+     </tr>
+     <tr>
+       <td>United Kingdoms</td>
+       <td><img src="https://en.m.wikipedia.org/wiki/File:Flag_of_the_United_Kingdom.svg"alt="Image not Found"></td>
+       <td>2,649,890l</td>
+     </tr>
+     </table>
+  </body>
+</html>
