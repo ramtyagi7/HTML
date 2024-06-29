@@ -1,0 +1,84 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <title></title>
+</head>
+<body>
+<form action="https://www.facebook.com" method="get">
+ 
+  <h1>Log in</h1>
+  <h2>Please input your login and password</h2>
+  
+  <input type="email" name="useremail" value="Email Here">
+  <input type="password" name="password" value="">
+  <input type="submit" name="" value="Click me">
+  <!--Submit inupt tag is used to link other input tag
+  •Value is used to give default value
+  •Every time we hit Submit button actually we are assigning value what input tag had
+  •Upon clicking that submit button We can call actions.Take us to other web pages within our entire web application along with the actual input
+  •Email type have some restrictions-->
+  
+  <h3>Choose Color!</h3>
+  <h4>Click on Button!</h4>
+  <input type="Color" name="" value="">
+  <h5>Enter some text</h5>
+  <input type ="text" name="" value="">
+  
+  <!--Use of action
+  •Use to link another web page-->
+  <p>Enter text and take me to FB:</p>
+  <input type="text" name="userinput" value="">
+  <input type="submit" name="" value="Submit">
+  
+  <!--Use of label
+  •Using Label individually-->
+  <label>
+    Enter Text:
+    <input type="text" name="" value="Block one">
+  </label>
+  <label>
+    Enter Text:
+    <input type="text" name="" value="Block two">
+  </label>
+  <!-- Using a label with for Parameter
+  •id is used to link label with input
+  •Placeholder can be use in place of value-->
+  <label for="userinput">Enter Input:</label>
+  <input id="userinput" type="text" name="" placeholder="Enter Email here">
+  
+ <!-- Use of required parameter
+ •Neccesary to enter value-->
+ <input type ="text" name="" placeholder="not required">
+ <input type ="text" name="" placeholder="Required" required>
+ <input type ="submit" name="" placeholder="Submit">
+ 
+ 
+ 
+ 
+ <!--Use of Selection parameter with Hotel feedback form example
+ •we have to use get method parameter with in a way
+ •method="get"
+ •Same name reference is required to link radio type
+ •textarea tag is used to maximize space according to user-->
+ <h5>Are you from Inside of USA or Outside the USA</h5>
+ <label for="inusa">Inside:</label>
+ <input id="inusa" type="radio" name="loc" value="inside">
+ 
+ <label for="outusa">Outside:</label>
+ <input id="outusa" type="radio" name="loc" value="outside">
+ 
+ <h6> How was your service!</h6>
+ <select name="stars">
+ <option value="Great">3</option>
+ <option value="Okay">2</option>
+ <option value="Bad">1</option>
+ </select>
+ <h7>Any other feedback!</h7>
+ <textarea> name="mytext" rows="8" cols="80></textarea>
+ <input type="submit" name="" value="Submit">
+ 
+ 
+  
+ </form>
+</body>
+</html>
